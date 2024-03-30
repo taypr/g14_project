@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity3"
+    android:background="#000000">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:textColor="#0076B6"
+        android:text="Welcome to your available meals!"
+        android:textAlignment="center"
+        android:textSize="50dp" />
+
+     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="#B0B7BC"
+         android:textColor="#0076B6"
+        android:text="Show Fridge Content" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_meals"
+        android:layout_width="match_parent"
+        android:background="#B0B7BC"
+        android:textColor="#0076B6"
+        android:layout_height="wrap_content"
+        android:text="Search For Meals" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_home"
+        android:background="#B0B7BC"
+        android:textColor="#0076B6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go Home" />
+</LinearLayout>

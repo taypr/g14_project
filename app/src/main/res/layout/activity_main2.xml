@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#000000"
+    tools:context=".MainActivity2">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:textColor="#0076B6"
+        android:text="Welcome to your Meal Selector!"
+        android:textAlignment="center"
+        android:textSize="50dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_add"
+        android:background="#B0B7BC"
+        android:textColor="#0076B6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Food to Fridge" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_meals"
+        android:background="#B0B7BC"
+        android:textColor="#0076B6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Meals" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_clear"
+        android:background="#B0B7BC"
+        android:textColor="#0076B6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Empty Fridge" />
+</LinearLayout>
